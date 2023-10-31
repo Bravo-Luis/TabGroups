@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tab Grouping Popup</title>
+    <style>
+        body {
+            width: 300px;
+        }
+        .group {
+            margin-bottom: 20px;
+        }
+        #addGroup {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="groups">
+    <div class="group">
+        <input type="text" class="group-name" placeholder="Enter Group Name">
+        <input type="color" class="group-color" value="#0000FF">
+        <input type="text" class="url-input" placeholder="Enter URL">
+        <button class="add-url">Add URL</button>
+        <div class="urls"></div>
+    </div>
+</div>
+
+<button id="addGroup">Add Group</button>
+<button id="groupTabs">Group Tabs</button>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

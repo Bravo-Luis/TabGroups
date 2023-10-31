@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "My Tab Grouping Extension",
+    "version": "1.0",
+    "description": "An extension to group tabs",
+    "permissions": ["tabs", "tabGroups","storage", "scripting"],
+    "action": {
+      "default_icon": {
+        "16": "icon.webp",
+        "48": "icon.webp",
+        "128": "icon.webp"
+      },
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+}
