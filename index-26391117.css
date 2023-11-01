@@ -1,0 +1,1 @@
+.color-button{color:#fff;transition:transform .3s,box-shadow .3s}.color-button:hover{transform:scale(1.05)}.color-button.selected{box-shadow:0 0 10px 3px #fff9;transform:scale(1.1)}

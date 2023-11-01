@@ -6,11 +6,10 @@
     "permissions": ["tabs", "tabGroups","storage", "scripting"],
     "action": {
       "default_icon": {
-        "16": "icon.webp",
-        "48": "icon.webp",
-        "128": "icon.webp"
-      },
-      "default_popup": "popup.html"
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
     },
     "background": {
       "service_worker": "background.js"
