@@ -2,6 +2,8 @@
 
 A user-friendly chrome web extension to create and manage tab groups with customizable colors. Open entire groups of tabs with just one click and save your tab groups for later.
 
+https://chromewebstore.google.com/detail/tabgroups/ijjfhioljaoadofbnkojaikmdkafjonp
+
 https://github.com/Bravo-Luis/TabGroups/assets/91937163/5895014d-2ce7-4ac3-8113-0c081e6c8c90
 
 ## Features
